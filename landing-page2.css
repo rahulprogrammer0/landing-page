@@ -1,0 +1,91 @@
+/* This page is enclude in landig-page2 in HTML documetns !  */
+
+body {
+  /* margin:10%; */
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: black;
+}
+.container {
+  background-image: url(subline.jpeg);
+  height: 30em;
+  background-position: bottom;
+  color: white;
+}
+.item {
+  padding: 10%;
+}
+button {
+  height: 4em;
+  width: 10em;
+  background-color: rgb(49, 48, 48);
+  color: white;
+  font-size: 17px;
+}
+button:hover {
+  background-color: white;
+  color: black;
+  cursor: pointer;
+}
+.part1 {
+  background-color: rgb(221, 219, 217);
+  text-align: center;
+  padding: 3em;
+}
+.top {
+  font-size: 2em;
+}
+.content {
+  /* columns: 2; */
+  text-align: center;
+  display: flex;
+}
+.part2 {
+  height: 40em;
+  background-color: rgb(42, 42, 42);
+  color: white;
+}
+img {
+  width: 30%;
+}
+.items {
+  display: flex;
+  background-color: rgb(36, 33, 33);
+  color: black;
+  justify-content: center;
+}
+
+.contant-warp {
+  height: 30em;
+  width: 13em;
+  background-color: white;
+  border: 1px solid black;
+  margin: 3%;
+  padding: 2em;
+}
+
+.photos {
+  width: 14rem;
+}
+
+.contant-inside {
+  line-height: 1.5em;
+}
+.tech-part {
+  background-color: white;
+  color: black;
+  padding: 3em;
+}
+.address {
+  display: flex;
+  background-color: cornflowerblue;
+  color: white;
+  
+}
+.address2 {
+  background-color: rgb(27, 25, 25);
+}
+
+footer{
+  display:block;
+}
